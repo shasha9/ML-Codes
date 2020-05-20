@@ -1,10 +1,10 @@
 import numpy
-from sklearn import neighbors, datasets, metrics
+from sklearn import  neighbors, datasets, metrics
 
 (data, targets)=datasets.load_iris(return_X_y=True); 
 
-trainingset=data[range(0,150,2),:]   
-trainingsettarget=targets[range(0,150,2)]
+trainingset= data[range(0,150,2),:]   
+trainingsettarget= targets[range(0,150,2)]
 
 testset=data[range(1,150,2),:]
 testsettarget=targets[range(1,150,2)]
