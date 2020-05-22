@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 (data, targets)=datasets.load_iris(return_X_y=True); 
 
 #create an instance of the model
-model=KMeans(n_clusters=3)
+model=KMeans(n_clusters=4)
 
 #learn the model
 model.fit(data)
